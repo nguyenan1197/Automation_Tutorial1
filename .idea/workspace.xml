@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee4e7ea-bc32-48ba-ae00-aa7068e8e33b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/SortTableSteps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/newSteps.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_output/failed" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_output/failed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Acceptance/SecondPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Acceptance/SecondPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/FirstSteps.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/FirstSteps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/SecondSteps.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/SecondSteps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/acceptance/FirstCest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/acceptance/SecondCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_output/failed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/ReservationCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/ReservationCest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +24,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/acceptance/ReservationCest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="-502">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#7#39#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/newSteps.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="e#38#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,29 +48,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/SecondSteps.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="246">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="e#34#64#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/SecondPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/FirstPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -100,6 +93,7 @@
         <option value="$PROJECT_DIR$/tests/_support/Page/Acceptance/SecondPage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/SecondSteps.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/ReservationCest.php" />
+        <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/newSteps.php" />
       </list>
     </option>
   </component>
@@ -296,16 +290,17 @@
       <workItem from="1557628127239" duration="144000" />
       <workItem from="1558140948934" duration="1956000" />
       <workItem from="1558153656715" duration="5248000" />
+      <workItem from="1558159158711" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41887000" />
+    <option name="totallyTimeSpent" value="42359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,23 +381,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/FirstCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/SecondCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/FirstCest.php" />
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/SecondCest.php" />
     <entry file="file://$PROJECT_DIR$/tests/acceptance/StartCest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -419,7 +399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/SecondPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="714">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
@@ -433,18 +413,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/SecondSteps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="246">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="e#34#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/newSteps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#38#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/ReservationCest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="-502">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#39#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

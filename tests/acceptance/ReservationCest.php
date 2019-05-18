@@ -1,6 +1,7 @@
 <?php
 
 use Step\Acceptance\SecondSteps;
+use Step\Acceptance\newSteps;
 class ReservationCest
 {
     /**
@@ -61,7 +62,7 @@ class ReservationCest
     /**
      * @param SecondSteps $I
      */
-    public function newReservation(SecondSteps $I)
+    public function newReservation(newSteps $I)
     {
         $I->wantToTest('I want add new reservation');
         $I->addNewReservation($this->invalidValue);

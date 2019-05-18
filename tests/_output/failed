@@ -1,4 +1,0 @@
-tests\acceptance\ReservationCest.php:addNewReservation
-tests\acceptance\ReservationCest.php:newReservation
-tests\acceptance\ReservationCest.php:emtyData
-tests\acceptance\ReservationCest.php:clickAddAgain
