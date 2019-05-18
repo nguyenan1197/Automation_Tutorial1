@@ -1,13 +1,14 @@
 <?php
 
 use Step\Acceptance\FirstSteps;
-class FirstCest
+use Step\Acceptance\SortTableSteps;
+class StartCest
 {
     /**
-     * @param FirstSteps $I
+     * @param StartCest $I
      * Test click all Icon and Button
      */
-    public function doClickIcon(FirstSteps $I)
+    public function doClickIcon(SortTableSteps $I)
     {
         $I->wantToTest('I want to do click sort Icon success');
         $I->testSortIcon();

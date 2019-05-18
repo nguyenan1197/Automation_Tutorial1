@@ -41,6 +41,7 @@ class SecondPage
      */
     public static $clearButton = '//a[text()="clear"]';
 
+
     /**
      * SecondPage constructor.
      * @param \AcceptanceTester $I

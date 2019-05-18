@@ -19,63 +19,8 @@ class SecondSteps extends \AcceptanceTester
     }
 
     /**
-     * @param $tableID
-     * @param $numberOfPerson
-     * @param $startTime
-     * Check Invalid Data Table ID
-     */
-    public function testInvalidTableID($tableID, $numberOfPerson, $startTime)
-    {
-        $I= $this;
-        $I->fillField(SecondPage::$tableIDfield, $tableID);
-        $I->fillField(SecondPage::$numberOfPersonField, $numberOfPerson);
-        $I->fillField(SecondPage::$startTimeField,$startTime);
-        $I->click(SecondPage::$addEditButton);
-        $I->comment('Table ID is not existing !');
-        $I->pause();
-    }
-
-    /**
-     * @param $tableID
-     * @param $numberOfPerson
-     * @param $startTime
-     * Check Invalid Data Number of Person
-     */
-    /*
-    public function testInvalidNumberOfPerson($tableID, $numberOfPerson, $startTime)
-    {
-        $I= $this;
-        $I->fillField(SecondPage::$tableIDfield, $tableID);
-        $I->fillField(SecondPage::$numberOfPersonField, $numberOfPerson);
-        $I->fillField(SecondPage::$startTimeField,$startTime);
-        $I->click(SecondPage::$addEditButton);
-        $I->comment('The input value \'2147483648\' is not parseable as an integer value.');
-        $I->pause();
-    }
-    */
-    /**
-     * @param $tableID
-     * @param $numberOfPerson
-     * @param $startTime
-     * Check Invalid start time
-     */
-    /*
-    public function testInvalidstartTime($tableID, $numberOfPerson, $startTime)
-    {
-        $I= $this;
-        $I->fillField(SecondPage::$tableIDfield, $tableID);
-        $I->fillField(SecondPage::$numberOfPersonField, $numberOfPerson);
-        $I->fillField(SecondPage::$startTimeField,$startTime);
-        $I->click(SecondPage::$addEditButton);
-        $I->dontSee('Error Message');
-        $I->pause();
-
-    }
-    */
-    /**
      * @param SecondPage $I
      * @throws \Exception
-     * Check calender button
      */
     public function testCalenderButton(SecondPage $I)
     {
@@ -86,21 +31,26 @@ class SecondSteps extends \AcceptanceTester
     }
 
     /**
-     * @param $tableID
-     * @param $numberOfPerson
-     * @param $startTime
-     * Add new reservation
+     * @param array $validValue
      */
-    public function addNewReservation($tableID, $numberOfPerson, $startTime)
+    public function addNewReservation($validValue = array())
     {
         $I= $this;
-        $I->fillField(SecondPage::$tableIDfield, $tableID);
-        $I->fillField(SecondPage::$numberOfPersonField, $numberOfPerson);
-        $I->fillField(SecondPage::$startTimeField, $startTime);
+        $I->fillField(SecondPage::$tableIDfield, $validValue['tableID']);
+        $I->fillField(SecondPage::$numberOfPersonField, $validValue['numberOfPerson']);
+        $I->fillField(SecondPage::$dateField, $validValue['date']);
+        if(isset($validValue['']))
+        {
+            $I->fillField(SecondPage::$descriptionField, $validValue['description']);
+        }
+        $I->fillField(SecondPage::$startTimeField, $validValue['startTime']);
         $I->click(SecondPage::$addEditButton);
         $I->click(FirstPage::$page2Icon);
         $I->comment('A new reservation');
-        $I->pause();
     }
+
+
+
+
 
 }
